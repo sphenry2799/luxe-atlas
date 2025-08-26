@@ -12,6 +12,10 @@
       content="luxury, travel, cities, hotels, information"
     />
     <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC05DI-QqUIh-SssOrwftL0DcPEsbd9wgM&callback=console.debug&libraries=maps,marker&v=beta"
+    ></script>
+    <script
       type="module"
       src="https://ajax.googleapis.com/ajax/libs/@googlemaps/extended-component-library/0.6.11/index.min.js"
     ></script>
@@ -130,6 +134,16 @@
           </gmp-map>
 
           <gmpx-place-picker placeholder="Enter an address"></gmpx-place-picker>
+          <gmp-map
+            center="40.12150192260742,-100.45039367675781"
+            zoom="4"
+            map-id="DEMO_MAP_ID"
+          >
+            <gmp-advanced-marker
+              position="40.12150192260742,-100.45039367675781"
+              title="My location"
+            ></gmp-advanced-marker>
+          </gmp-map>
         </div>
       </section>
       <!-- Contact -->
