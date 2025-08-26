@@ -23,4 +23,27 @@ $(document).ready(function () {
   } else {
     console.log("Great choice! Enjoy exploring " + city + ".");
   }
+  let city = "Dubai";
+  let season = "summer";
+
+  if (city === "Dubai" && season === "summer") {
+    console.log(
+      "Dubai is extremely hot in summer. Consider indoor attractions."
+    );
+  } else if (city === "Dubai" && season === "winter") {
+    console.log("Winter is the perfect time to visit Dubai!");
+  } else {
+    console.log("Enjoy your trip to " + city + " in " + season + "!");
+  }
+  let city = "Venice";
+
+  if (city === "Venice") {
+    console.log("Best way to travel: Take a gondola or water taxi.");
+  } else if (city === "Amsterdam") {
+    console.log("Best way to travel: Rent a bicycle.");
+  } else if (city === "Bangkok") {
+    console.log("Best way to travel: Tuk-tuks or boats along the river.");
+  } else {
+    console.log("Public transport and taxis are good options in " + city + ".");
+  }
 });
