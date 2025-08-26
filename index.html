@@ -11,16 +11,7 @@
       name="keyswords"
       content="luxury, travel, cities, hotels, information"
     />
-    <script
-      async
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC05DI-QqUIh-SssOrwftL0DcPEsbd9wgM&callback=console.debug&libraries=maps,marker&v=beta"
-    ></script>
-    <script
-      type="module"
-      src="https://ajax.googleapis.com/ajax/libs/@googlemaps/extended-component-library/0.6.11/index.min.js"
-    ></script>
-    <script src="./index.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -68,10 +59,10 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Locations</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -84,8 +75,8 @@
                   Dropdown link
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
                   <li>
                     <a class="dropdown-item" href="#">Something else here</a>
                   </li>
@@ -113,37 +104,7 @@
       <section>
         <div class="locations">
           <h2>Locations</h2>
-
-          <link rel="stylesheet" href="./style.css" />
-
-          <gmpx-api-loader
-            key="AIzaSyC05DI-QqUIh-SssOrwftL0DcPEsbd9wgM"
-            solution-channel="GMP_GE_mapsandplacesautocomplete_v2"
-          >
-          </gmpx-api-loader>
-          <gmp-map center="40.749933,-73.98633" zoom="13" map-id="DEMO_MAP_ID">
-            <div
-              slot="control-block-start-inline-start"
-              class="place-picker-container"
-            >
-              <gmpx-place-picker
-                placeholder="Enter an address"
-              ></gmpx-place-picker>
-            </div>
-            <gmp-advanced-marker></gmp-advanced-marker>
-          </gmp-map>
-
-          <gmpx-place-picker placeholder="Enter an address"></gmpx-place-picker>
-          <gmp-map
-            center="40.12150192260742,-100.45039367675781"
-            zoom="4"
-            map-id="DEMO_MAP_ID"
-          >
-            <gmp-advanced-marker
-              position="40.12150192260742,-100.45039367675781"
-              title="My location"
-            ></gmp-advanced-marker>
-          </gmp-map>
+          <!-- Images to click on -->
         </div>
       </section>
       <!-- Contact -->
