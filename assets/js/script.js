@@ -1,10 +1,12 @@
 $(document).ready(function () {
+  //   loop
   let destinations = ["Paris", "London", "Tokyo", "New York"];
 
   for (let city of destinations) {
     console.log("Next stop: " + city);
   }
 
+  // if else statement 4
   let city = "Los Angeles";
 
   if (city === "New York" || city === "Los Angeles" || city === "Chicago") {
@@ -12,6 +14,8 @@ $(document).ready(function () {
   } else {
     console.log(city + " is an international destination.");
   }
+
+  //   if else statement 3
   let city = "Paris";
 
   if (city === "Paris") {
@@ -23,6 +27,8 @@ $(document).ready(function () {
   } else {
     console.log("Great choice! Enjoy exploring " + city + ".");
   }
+
+  //   if else statement 2
   let city = "Dubai";
   let season = "summer";
 
@@ -35,6 +41,8 @@ $(document).ready(function () {
   } else {
     console.log("Enjoy your trip to " + city + " in " + season + "!");
   }
+
+  //   if else statement 1
   let city = "Venice";
 
   if (city === "Venice") {
@@ -45,5 +53,14 @@ $(document).ready(function () {
     console.log("Best way to travel: Tuk-tuks or boats along the river.");
   } else {
     console.log("Public transport and taxis are good options in " + city + ".");
+  }
+
+  //   Javascript form validation
+  function validateForm() {
+    let x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
   }
 });
