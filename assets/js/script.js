@@ -64,8 +64,4 @@ $(document).ready(function () {
     }
   }
   // Google Maps
-  map = new google.maps.Map(document.getElementById("map"),{
-    center: {lat: -34.397, lng: 159.644},
-    zoom: 8
-  });
 });
