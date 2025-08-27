@@ -9,22 +9,22 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <div id="map">
-      <gmpx-api-loader
-        key="AIzaSyBQZw5S-dbbl7YOumtwTbBVvxwxjxucCuU"
-        solution-channel="GMP_GE_mapsandplacesautocomplete_v2"
+    <div id="map"></div>
+    <gmpx-api-loader
+      key="AIzaSyBQZw5S-dbbl7YOumtwTbBVvxwxjxucCuU"
+      solution-channel="GMP_GE_mapsandplacesautocomplete_v2"
+    >
+    </gmpx-api-loader>
+    <gmp-map center="40.749933,-73.98633" zoom="9" map-id="Luxe-Atlas_MAP_ID">
+      <div
+        slot="control-block-start-inline-start"
+        class="place-picker-container"
       >
-      </gmpx-api-loader>
-      <gmp-map center="40.749933,-73.98633" zoom="9" map-id="Luxe-Atlas_MAP_ID">
-        <div
-          slot="control-block-start-inline-start"
-          class="place-picker-container"
-        >
-          <gmpx-place-picker placeholder="Enter an address"></gmpx-place-picker>
-        </div>
-        <gmp-advanced-marker></gmp-advanced-marker>
-      </gmp-map>
-    </div>
+        <gmpx-place-picker placeholder="Enter an address"></gmpx-place-picker>
+      </div>
+      <gmp-advanced-marker></gmp-advanced-marker>
+    </gmp-map>
+
     <script
       src="https://maps.googleapis.com/maps/api/js?
 					callback=initMap&
