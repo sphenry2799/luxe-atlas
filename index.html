@@ -11,6 +11,11 @@
       name="keyswords"
       content="luxury, travel, cities, hotels, information"
     />
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQZw5S-dbbl7YOumtwTbBVvxwxjxucCuU&callback=initMap"
+    ></script>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
@@ -108,6 +113,7 @@
         <div class="locations">
           <h2>Locations</h2>
           <!-- Image to click on to send to page-->
+            <div id="map"></div>
         </div>
       </section>
       <!-- Contact -->
