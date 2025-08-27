@@ -9,20 +9,29 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <gmpx-api-loader
-      key="AIzaSyBQZw5S-dbbl7YOumtwTbBVvxwxjxucCuU"
-      solution-channel="GMP_GE_mapsandplacesautocomplete_v2"
-    >
-    </gmpx-api-loader>
-    <gmp-map center="40.749933,-73.98633" zoom="9" map-id="Luxe-Atlas_MAP_ID">
-      <div
-        slot="control-block-start-inline-start"
-        class="place-picker-container"
+    <div id="map">
+      <gmpx-api-loader
+        key="AIzaSyBQZw5S-dbbl7YOumtwTbBVvxwxjxucCuU"
+        solution-channel="GMP_GE_mapsandplacesautocomplete_v2"
       >
-        <gmpx-place-picker placeholder="Enter an address"></gmpx-place-picker>
-      </div>
-      <gmp-advanced-marker></gmp-advanced-marker>
-    </gmp-map>
+      </gmpx-api-loader>
+      <gmp-map center="40.749933,-73.98633" zoom="9" map-id="Luxe-Atlas_MAP_ID">
+        <div
+          slot="control-block-start-inline-start"
+          class="place-picker-container"
+        >
+          <gmpx-place-picker placeholder="Enter an address"></gmpx-place-picker>
+        </div>
+        <gmp-advanced-marker></gmp-advanced-marker>
+      </gmp-map>
+    </div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?
+					callback=initMap&
+					v=weekly&
+					key=AIzaSyBQZw5S-dbbl7YOumtwTbBVvxwxjxucCuU"
+      async
+    ></script>
     <script src="assets/js/index.js"></script>
   </body>
 </html>
