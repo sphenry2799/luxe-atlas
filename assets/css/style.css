@@ -13,14 +13,19 @@
   border: none;
 }
 
+body {
+  background-image: url(../images/pexels-gdtography-277628-950241.jpg);
+}
+
 #hero {
   height: 40rem;
   width: auto;
-  background: url(../images/pexels-peng-liu-45946-169647.jpg) no-repeat center
+  background: url(../images/pexels-lkloeppel-466685.jpg) no-repeat center
     center/cover;
-  /* background-color: var(--secondary-color); */
+  background-color: var(--secondary-color);
   position: relative;
 }
+
 .navbar-dark {
   background-color: #9a031a;
   color: #ffffff;
