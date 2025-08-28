@@ -22,8 +22,10 @@
   position: relative;
 }
 .navbar-dark {
-  background-color: #ffffff;
-  color: #0f4c5c;
+  background-color: #9a031a;
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
 }
 
 /* Google Maps API  */
