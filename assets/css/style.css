@@ -55,6 +55,23 @@ h3 {
   font-size: 1rem;
 }
 
+.header-container {
+  position: relative;
+  width: 75%;
+  color: var(--light-color);
+}
+
+.centred-header-text {
+  background-color: var(--third-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--light-highlight-color);
+  font-size: 2em;
+  text-shadow: 1px 1px var(--dark-color);
+}
+
 /* Google Maps API  */
 
 html,
