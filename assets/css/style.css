@@ -8,6 +8,7 @@
   --secondary-font: "Playfair Display", serif;
   --primary-color: #9a031a;
   --secondary-color: #0f4c5c;
+  --third-color: #cca43b;
   --light-color: #ffffff;
   --dark-color: #000000;
 }
@@ -21,6 +22,20 @@
 
 body {
   background-image: url(../images/pexels-gdtography-277628-950241.jpg);
+}
+h1 {
+  font-family: var(--secondary-font);
+  color: var(--light-color);
+}
+
+h2 {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+}
+
+h3 {
+  font-family: var(--secondary-font);
+  color: var(--third-color-color);
 }
 
 #hero {
