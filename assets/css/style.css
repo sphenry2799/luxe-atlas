@@ -13,6 +13,19 @@
   border: none;
 }
 
+#hero {
+  height: 40rem;
+  width: auto;
+  background: url(../images/pexels-peng-liu-45946-169647.jpg) no-repeat center
+    center/cover;
+  /* background-color: var(--secondary-color); */
+  position: relative;
+}
+.navbar-dark {
+  background-color: #ffffff;
+  color: #0f4c5c;
+}
+
 /* Google Maps API  */
 
 html,
