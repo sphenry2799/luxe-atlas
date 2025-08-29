@@ -68,6 +68,11 @@ p {
   background: var(--light-color);
 }
 
+gmp-map {
+  height: 80rem;
+  width: 76rem;
+}
+
 #locations,
 #gallery {
   background-color: var(--light-color);
