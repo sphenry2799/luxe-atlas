@@ -56,13 +56,6 @@ p {
   font-family: var(--primary-font);
   font-size: 1rem;
 }
-#hero {
-  height: 40rem;
-  width: auto;
-  background: url(../images/pexels-peng-liu-45946-169647.jpg);
-  background-color: var(--secondary-color);
-  position: relative;
-}
 
 #map {
   height: 100vh;
