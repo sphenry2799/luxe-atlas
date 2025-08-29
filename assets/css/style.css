@@ -21,7 +21,8 @@
 }
 
 body {
-  background-image: url(../images/pexels-gdtography-277628-950241.jpg);
+  /* background-image: url(../images/pexels-hngstrm-1939485.jpg) no-repeat; */
+  background-color: azure;
 }
 h1 {
   font-family: var(--secondary-font);
