@@ -65,12 +65,15 @@ p {
 }
 
 #map {
-  background: var(--light-color);
+  height: 100vh;
+  width: 100%;
 }
 
-gmp-map {
-  height: 80rem;
-  width: 76rem;
+#address {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 16px;
 }
 
 #locations,
