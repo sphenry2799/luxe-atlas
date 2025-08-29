@@ -60,7 +60,7 @@ p {
   height: 40rem;
   width: auto;
   background: url(../images/pexels-peng-liu-45946-169647.jpg);
-  /* background-color: var(--secondary-color); */
+  background-color: var(--secondary-color);
   position: relative;
 }
 
