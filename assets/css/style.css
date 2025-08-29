@@ -13,6 +13,11 @@
   --dark-color: #000000;
 }
 
+:root {
+  margin: 0;
+  padding: 0;
+}
+
 /* Global Styles */
 * {
   margin: 0;
@@ -21,9 +26,18 @@
 }
 
 body {
-  /* background-image: url(../images/pexels-hngstrm-1939485.jpg) no-repeat; */
-  background-color: azure;
+  background-color: #f5f5fc;
+  opacity: 1;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #dcdce9 0,
+    #e1e1ec 1px,
+    #efeffc 0,
+    #e5e5f7 50%
+  );
 }
+
 h1 {
   font-family: var(--secondary-font);
   color: var(--light-color);
