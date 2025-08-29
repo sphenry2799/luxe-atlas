@@ -64,6 +64,10 @@ p {
   position: relative;
 }
 
+#map {
+  margin: 3rem;
+}
+
 .navbar-dark,
 .dropdown-item {
   background-color: var(--primary-color);
@@ -95,7 +99,7 @@ p {
 html,
 body {
   height: 100%;
-  margin: 2rem;
+  margin: 3rem;
   padding: 1rem;
 }
 
