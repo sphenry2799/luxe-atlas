@@ -25,6 +25,11 @@
   border: none;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   background-color: var(--light-color);
   opacity: 1;
@@ -83,10 +88,12 @@ p {
   font-size: 1rem;
 }
 
-.header-container {
-  position: relative;
-  width: 75%;
-  color: var(--light-color);
+.background {
+  background-image: url("assets/images/pexels-nurseryart-346798.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .centred-header-text {
@@ -98,17 +105,4 @@ p {
   color: var(--light-color);
   font-size: 2em;
   text-shadow: 1px 1px var(--dark-color);
-}
-
-/* Google Maps API  */
-
-html,
-body {
-  height: 100%;
-  margin: 3.5rem;
-  padding: 1rem;
-}
-
-.place-picker-container {
-  padding: 20px;
 }
