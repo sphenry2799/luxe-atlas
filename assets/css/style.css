@@ -20,15 +20,15 @@
 }
 
 body {
-  background-color: var(--light-color);
-  opacity: 1;
+  background-color: #ffffff;
+  opacity: 0.8;
   background-size: 10px 10px;
   background-image: repeating-linear-gradient(
     45deg,
-    #dcdce9 0,
-    #e1e1ec 1px,
-    #efeffc 0,
-    #e5e5f7 50%
+    #f6f6f6 0,
+    #f6f6f6 1px,
+    #ffffff 0,
+    #ffffff 50%
   );
 }
 
