@@ -69,8 +69,7 @@ p {
 }
 
 #background {
-  background: url(../images/pexels-brian-candy-2155311858-33670042.jpg)
-    no-repeat center center / cover;
+  background: url(../images/main-image.webp) no-repeat center center / cover;
   height: 50rem;
   width: auto;
 }
@@ -81,7 +80,7 @@ p {
   color: var(--light-color);
   font-family: var(--secondary-font);
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .container-fluid {
   padding: 0;
