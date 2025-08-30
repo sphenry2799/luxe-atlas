@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 /* CSS Variables */
-
-/* CSS Variables */
 :root {
   --primary-font: "Lato", sans-serif;
   --secondary-font: "Playfair Display", serif;
@@ -11,11 +9,7 @@
   --third-color: #cca43b;
   --light-color: #ffffff;
   --dark-color: #000000;
-}
-
-:root {
-  margin: 0;
-  padding: 0;
+  --bs-gutter-x: 0;
 }
 
 /* Global Styles */
@@ -23,11 +17,6 @@
   margin: 0;
   padding: 0;
   border: none;
-}
-
-html,
-body {
-  height: 100%;
 }
 
 body {
@@ -79,24 +68,37 @@ p {
   background-color: var(--light-color);
 }
 
+#background {
+  background: url(../images/pexels-brian-candy-2155311858-33670042.jpg)
+    no-repeat center center / cover;
+  height: 50rem;
+  width: auto;
+}
+
 .navbar-dark,
 .dropdown-item {
   background-color: var(--primary-color);
   color: var(--light-color);
   font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.container-fluid {
+  padding: 0;
 }
 
-.background {
-  background-image: url("assets/images/pexels-nurseryart-346798.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
-.centred-header-text {
+.header-container {
+  position: relative;
+  width: auto;
+  color: var(--light-highlight-color);
+}
+
+/* .centred-header-text {
   background-color: var(--third-color);
   position: absolute;
   top: 50%;
@@ -105,4 +107,4 @@ p {
   color: var(--light-color);
   font-size: 2em;
   text-shadow: 1px 1px var(--dark-color);
-}
+} */
