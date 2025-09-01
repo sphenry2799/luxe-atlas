@@ -16,7 +16,7 @@
       rel="stylesheet"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
-    />
+   >
     <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="apple-touch-icon"
@@ -38,8 +38,8 @@
     <title>The Luxe Atlas | Luxury Travel</title>
   </head>
   <body>
-     <header id="">
-      <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
+    <header id="logo" class="container-fluid">
+      <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
           <img src="assets/images/logo.png" alt="Luxe Atlas logo" />
           <button
@@ -54,12 +54,12 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link"  href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Locations</a>
+                <a class="nav-link" aria-current="page" href="#">Locations</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gallery.html">Gallery</a>
@@ -86,23 +86,22 @@
           </div>
         </div>
       </nav>
-        </div>
     </header>
-     <section id="locations" class="row section">
-     <div class="col-12">
-      <h2 class="mt-5">Locations</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est itaque
-        quibusdam iste necessitatibus, debitis maiores magnam aperiam sapiente
-        fuga quisquam. Quod similique magni quae velit cumque molestiae. Dicta,
-        officia magni.
-      </p>
-    </div>
-    </section>
+     <main class="container">
+          <section id="locations" class="row section">
+            <div class="col-12">
+            <h2 class="display-5 mt-5 pt-5">Locations</h2>
+          
+          </div>
+           </section>
+    <h2></h2>
     <input id="address" type="text" placeholder="Enter an address" />
-    <!-- Map container -->
-    <div id="map"></div>
-    
+      <!-- Map container -->
+    <div id="map" class="center"></div>
+    </div>
+   
+       </main>
+       <footer></footer>
    <script
       async
       defer
