@@ -16,7 +16,7 @@
       rel="stylesheet"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
-   >
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="apple-touch-icon"
@@ -56,48 +56,33 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link"  href="index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Locations</a>
+                <a class="nav-link" href="locations.html">Locations</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gallery.html">Gallery</a>
               </li>
-               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
+      <div id="background" class="header-container">
+        <div class="">
+          <h1 class="display-2">Welcome to <br />Luxe Atlas<br /></h1>
+        </div>
+      </div>
     </header>
-     <main class="container">
-          <section id="locations" class="row section">
-            <div class="col-12">
-            <h2 class="display-5 mt-5 pt-5">Locations</h2>
-                <h3>Effortless Navigation with Google Maps</h3>
-
-    <p>Finding your way to our distinguished hotels has never been easier. With Google Maps, you can explore our prime locations, view nearby landmarks, and receive step-by-step directions directly to our doors. Whether you are arriving from the airport, planning a city stroll, or seeking local points of interest, Google Maps ensures a seamless journey at every stage.
-
-Simply access the map, select your destination, and allow us to welcome you with ease and elegance.</p>
-          </div>
-           </section>
- 
-    <input id="address" type="text" placeholder="Enter an address" />
-      <!-- Map container -->
-    <div id="map" class="center"></div>
-    </div>
-   
-       </main>
-       <footer></footer>
-   <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQZw5S-dbbl7YOumtwTbBVvxwxjxucCuU&callback=initMap&libraries=places">
-    </script>
-    <script src="assets/js/index.js"></script>
   </body>
 </html>
