@@ -96,24 +96,53 @@ p {
   height: auto;
 }
 
+/* Cities */
+.cities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  height: 2.5rem; /* fixed height to match li font-size */
+  position: relative; /* for absolute positioning of li */
+}
+
+.cities li {
+  font-size: 2rem;
+  position: absolute; /* all li stacked on top of each other */
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none; /* hide initially */
+  margin: 0;
+}
+
+/* Gallery */
+.card img {
+  transition: filter 0.4s ease;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.card img.color {
+  filter: grayscale(0%);
+  filter: drop-shadow(6px 6px 8px rgb(68, 15, 70));
+}
+
 .header-container {
   position: relative;
   width: auto;
   color: var(--light-highlight-color);
 }
 
-/* .centred-header-text/ {
-  background-color: var(--third-color);
+.centred-header-text {
+  background-color: var(--dark-color);
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 20%;
   transform: translate(-50%, -50%);
   color: var(--light-color);
   font-size: 2em;
-  text-shadow: 1px 1px var(--dark-color);
-} */
-
-/* Contact Form */
+}
 
 /* Footer */
 
