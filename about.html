@@ -76,9 +76,6 @@
           </div>
         </div>
       </nav>
- <button type="button" class="btn btn-primary sharp-corners" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Subscribe to my newsletter!
-</button>
     </header>
     <main class="container">
       <section id="about" class="row section">
@@ -88,7 +85,7 @@
             <i class="fa-solid fa-building"></i>
           </h2>
         </div>
-        <div class="col-12 col-md-6 mb-3">
+        <div class="col-12 col-md-4 mb-3">
           <h3>Luxe Atlas</h3>
           <p class="card-text mb-3">
             At Luxe Atlas, we believe that travel is more than reaching a
@@ -144,48 +141,62 @@
             tailored service to our clients.
           </p>
         </div>
-      </section>
-      <!-- Location Map -->
-      <h3>Where we are based</h3>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19867.422030982598!2d-0.058017254181703955!3d51.50536792193881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487602ba7a12992f%3A0x4d821857a5e4a41!2sCanary%20Wharf%2C%20London!5e0!3m2!1sen!2suk!4v1756836796983!5m2!1sen!2suk"
-        width="550"
-        height="400"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
 
-      <!-- Subscribe to us -->
-
-    </main>
-    
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content sharp-corners">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-         <p>Join my newsletter for the latest updates on my projects, coding tips, and industry insights delivered straight to your inbox.</p>
-      <form class="row g-3">
-        <div class="col-lg-6">
-            <label for="inputName" class="form-label">Name</label>
-            <input type="text" class="form-control" id="inputName">
+        <!-- Location Map -->
+        <div class="col-12 col-md-6 mb-3">
+          <h3>Where we are based</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19867.422030982598!2d-0.058017254181703955!3d51.50536792193881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487602ba7a12992f%3A0x4d821857a5e4a41!2sCanary%20Wharf%2C%20London!5e0!3m2!1sen!2suk!4v1756836796983!5m2!1sen!2suk"
+            width="550"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
-        <div class="col-lg-6">
-            <label for="inputEmail" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail">
-        </div>
-        <div class="col-12 mb-4">
-            <button type="submit" class="btn btn-primary">
-                Sign up!
+        <div class="col-12 col-md-6 mb-3">
+          <!-- Subscribe to us -->
+          <h3>Subscribe to us</h3>
+          <form action="success.html" method="GET">
+            <div class="row mb-2">
+              <h4>Exclusive Content, Straight to Your Inbox</h4>
+              <p>
+                Stay informed with our latest insights, resources, and updates.
+                Subscribe today and receive valuable content delivered directly
+                to your inbox.
+              </p>
+              <!-- <label for="name" id="name-desc"></label> -->
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                aria-describedby="name-desc"
+                placeholder="Name"
+                required
+              />
+              <!-- <label for="email" id="email-desc"></label> -->
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="email-desc"
+                placeholder="Email"
+                required
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone else.</small
+              >
+            </div>
+            <button type="submit" class="btn btn-primary mb-4">
+              Join the list
             </button>
+          </form>
         </div>
-    </form>
-     <footer id="footer" class="py-4 mt-auto">
+      </section>
+    </main>
+
+    <footer id="footer" class="py-4 mt-auto">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-4">
