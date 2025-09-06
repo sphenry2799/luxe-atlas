@@ -10,7 +10,6 @@
   --light-color: #ffffff;
   --dark-color: #000000;
   --bs-gutter-x: 0;
-  --grey-color: rgba#000000, 0.7;
 }
 
 /* Global Styles */
@@ -36,6 +35,7 @@ body {
 h1 {
   font-family: var(--secondary-font);
   color: var(--light-color);
+  text-shadow: 2px 2px var(--dark-color);
 }
 
 h2 {
@@ -58,9 +58,6 @@ p {
   font-size: 1rem;
 }
 
-.section {
-  background-color: var(--light-color);
-}
 #map {
   height: 40rem;
   margin-left: 1rem;
@@ -86,6 +83,12 @@ p {
   width: auto;
 }
 
+/* Footer */
+
+#footer {
+  background-color: var(--third-color);
+}
+
 .navbar-dark,
 .dropdown-item {
   background-color: var(--primary-color);
@@ -103,23 +106,36 @@ p {
   height: auto;
 }
 
+.section {
+  background-color: var(--light-color);
+}
+
+.greeting {
+  color: var(--light-color);
+  font-size: 1.5rem;
+  background: var(--grey-color);
+  text-align: left;
+}
+
 /* Cities */
 .cities {
   list-style: none;
   padding: 0;
   margin: 0;
   text-align: center;
-  height: 2.5rem; /* fixed height to match li font-size */
-  position: relative; /* for absolute positioning of li */
+  height: 2.5rem;
+  position: relative;
+  font-family: var(--secondary-font);
+  text-shadow: 2px 2px var(--dark-color);
 }
 
 .cities li {
   font-size: 2rem;
-  position: absolute; /* all li stacked on top of each other */
+  position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  display: none; /* hide initially */
+  display: none;
   margin: 0;
 }
 
@@ -142,17 +158,11 @@ p {
 }
 
 .centred-header-text {
-  background-color: var(--dark-color);
   position: absolute;
   top: 40%;
   left: 20%;
   transform: translate(-50%, -50%);
   color: var(--light-color);
   font-size: 2em;
-}
-
-/* Footer */
-
-#footer {
-  background-color: var(--third-color);
+  text-align: center;
 }
