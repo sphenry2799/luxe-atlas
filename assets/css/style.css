@@ -10,6 +10,7 @@
   --light-color: #ffffff;
   --dark-color: #000000;
   --bs-gutter-x: 0;
+  --grey-color: rgba#000000, 0.7;
 }
 
 /* Global Styles */
@@ -46,6 +47,12 @@ h3 {
   font-family: var(--secondary-font);
   color: var(--third-color);
 }
+
+h4 {
+  font-family: var(--secondary-font);
+  color: var(--grey-color);
+}
+
 p {
   font-family: var(--primary-font);
   font-size: 1rem;

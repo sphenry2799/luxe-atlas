@@ -67,7 +67,21 @@ $(document).ready(function () {
 // } else {
 //   console.log("Enjoy your trip to " + city + " in " + season + "!");
 // }
-
+$(document).ready(function () {
+function greeting(){
+  let $items = $(".greeting");
+if (hour < 6) {
+  greeting = "Good night";
+  console.log(Good night);
+} else if (hour >= 7 ) {
+  greeting = "Good morning";
+} else if (hour >=12 ) {
+  greeting = "Good afternoon";
+} else if (hour >=18 ) {
+  greeting = "Good evening";
+}
+}
+});
 // //   if else statement 1
 // let city = "Venice";
 
@@ -89,7 +103,7 @@ $(document).ready(function () {
 //     return false;
 //   }
 // }
-// // Nav Bar
+// Nav Bar
 // document.querySelectorAll(".navbar-collapse .nav-link").forEach((link) => {
 //   link.addEventListener("click", function (e) {
 //     let section = document.querySelector(e.target.getAttribute("href"));
