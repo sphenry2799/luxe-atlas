@@ -8,11 +8,11 @@ function initMap() {
     mapTypeId: "roadmap",
   });
 
-  marker = new google.maps.Marker({ map });
+  marker = new google.maps.AdvancedMarkerElement({ map });
   geocoder = new google.maps.Geocoder();
 
   // Autocomplete setup
-  autocomplete = new google.maps.places.Autocomplete(
+  autocomplete = new google.maps.places.PlaceAutocompleteElement(
     document.getElementById("address"),
     {
       fields: ["place_id", "geometry", "formatted_address", "name"],
