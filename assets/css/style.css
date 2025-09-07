@@ -58,10 +58,39 @@ p {
   font-size: 1rem;
 }
 
+a {
+  color: var(--light-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--third-color);
+}
+
 #map {
-  height: 40rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.social-icons {
+  display: flex; /* Arrange in a row */
+  gap: 1.2rem; /* Space between icons */
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  list-style: none;
+}
+
+.social-icons a {
+  color: inherit;
+  font-size: 2rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: var(--third-color); /* Example hover color */
 }
 
 #address {
@@ -86,7 +115,8 @@ p {
 /* Footer */
 
 #footer {
-  background-color: var(--third-color);
+  background-color: var(--secondary-color);
+  color: var(--light-color);
 }
 
 .navbar-dark,
