@@ -85,17 +85,20 @@
 Simply access the map, select your destination, and allow us to welcome you with ease and elegance.</p>
           </div>
            </section>
-   <div class="col-12 col-md-4 col-lg-6">
+           <div class="container my-4">
+  <!-- Responsive map container -->
+
+   <div>
     <input id="address" type="text" placeholder="Enter an address" />
-      <!-- Map container -->
-    <div id="map" class="center"></div>
-    </div>
+      <!-- Map container -->  
+       <div class="ratio ratio-16x9">
+    <div id="map"></div>
+  </div>
    </div>
        </main>
        <footer></footer>
    <script
       async
-      defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQZw5S-dbbl7YOumtwTbBVvxwxjxucCuU&callback=initMap&libraries=places">
     </script>
     <script src="assets/js/map.js"></script>
