@@ -148,6 +148,7 @@ a:hover {
   font-size: 1.5rem;
   background: var(--grey-color);
   text-align: left;
+  text-shadow: 1px 1px var(--dark-color);
 }
 
 /* Cities */
