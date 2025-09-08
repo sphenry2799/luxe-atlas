@@ -195,11 +195,11 @@ a:hover {
 }
 
 .centred-header-text {
-  background-color: #000000;
+  background-color: rgba(8, 8, 8, 0.5);
   position: absolute;
   top: 40%;
   left: 20%;
-  transform: translate(-50%, -50%);
+  transform: translate(-25%, -25%);
   color: var(--light-color);
   font-size: 2em;
   text-align: center;
