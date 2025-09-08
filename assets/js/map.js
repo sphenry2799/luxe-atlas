@@ -1,3 +1,5 @@
+// Google Maps API
+
 let map, marker, autocomplete, geocoder;
 
 function initMap() {
@@ -11,7 +13,7 @@ function initMap() {
   marker = new google.maps.Marker({ map });
   geocoder = new google.maps.Geocoder();
 
-  // Autocomplete setup
+  // Autocomplete
   autocomplete = new google.maps.places.Autocomplete(
     document.getElementById("address"),
     {
@@ -36,7 +38,7 @@ function initMap() {
     }
   });
 }
-
+// Geocode
 function geocodeByText(text) {
   if (!text.trim()) return;
   geocoder.geocode({ address: text }, (results, status) => {
