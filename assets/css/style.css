@@ -9,6 +9,7 @@
   --third-color: #cca43b;
   --light-color: #ffffff;
   --dark-color: #000000;
+  --background-color: rgba(8, 8, 8, 0.5);
   --bs-gutter-x: 0;
 }
 
@@ -142,6 +143,11 @@ a:hover {
   height: auto;
 }
 
+.iframe {
+  width: 100%;
+  min-height: 18rem;
+}
+
 .section {
   background-color: var(--light-color);
 }
@@ -167,7 +173,7 @@ a:hover {
 }
 
 .cities li {
-  font-size: 2rem;
+  font-size: 1.5rem;
   position: absolute;
   top: 0;
   left: 50%;
@@ -195,7 +201,7 @@ a:hover {
 }
 
 .centred-header-text {
-  background-color: rgba(8, 8, 8, 0.5);
+  background-color: var(--background-color);
   position: absolute;
   top: 40%;
   left: 20%;
