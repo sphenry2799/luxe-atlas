@@ -16,7 +16,7 @@
       rel="stylesheet"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
-   >
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="apple-touch-icon"
@@ -59,7 +59,9 @@
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Locations</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Locations</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gallery.html">Gallery</a>
@@ -86,35 +88,40 @@
         </div>
       </nav>
     </header>
-     <main class="container">
-          <section id="locations" class="row section">
-            <div class="col-12">
-            <h2 class="display-5 mt-5 pt-5">Locations</h2>
-                <h3>Effortless Navigation with Google Maps</h3>
+    <main class="container">
+      <section id="locations" class="row section">
+        <div class="col-12">
+          <h2 class="display-5 mt-5 pt-5">Locations</h2>
+          <h3>Effortless Navigation with Google Maps</h3>
 
-    <p>Finding your way to our distinguished hotels has never been easier. With Google Maps, you can explore our prime locations, view nearby landmarks, and receive step-by-step directions directly to our doors. Whether you are arriving from the airport, planning a city stroll, or seeking local points of interest, Google Maps ensures a seamless journey at every stage.
+          <p>
+            Finding your way to our distinguished hotels has never been easier.
+            With Google Maps, you can explore our prime locations, view nearby
+            landmarks, and receive step-by-step directions directly to our
+            doors. Whether you are arriving from the airport, planning a city
+            stroll, or seeking local points of interest, Google Maps ensures a
+            seamless journey at every stage. Simply access the map, select your
+            destination, and allow us to welcome you with ease and elegance.
+          </p>
+        </div>
+      </section>
+      <div class="container my-4">
+        <!-- Responsive map container -->
 
-Simply access the map, select your destination, and allow us to welcome you with ease and elegance.</p>
-          </div>
-           </section>
-           <div class="container my-4">
-  <!-- Responsive map container -->
-
-   <div>
-    <input id="address" type="text" placeholder="Enter an address" />
-      <!-- Map container -->  
-       <div class="ratio ratio-16x9">
-    <div id="map"></div>
-  </div>
-   </div>
-       </main>
-       <footer id="footer" class="py-4 mt-auto">
+        <div>
+          <input id="address" type="text" placeholder="Enter an address" />
+          <!-- Map container -->
+          <div class="ratio ratio-16x9">
+          <div id="map"></div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer" class="py-4 mt-auto">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-3">
             <h4>@Luxe-Atlas</h4>
-
-            <ul id="social" class="list-unstyled social-icons">
+            <ul id="social" class="list-unstyled social-icons mb-3">
               <li>
                 <a
                   href="https://www.facebook.com"
@@ -167,14 +174,13 @@ Simply access the map, select your destination, and allow us to welcome you with
               <h4>Luxe Atlas Travel</h4>
               <i class="fa-solid fa-location-dot"></i> 123 Canary Wharf<br />
               Docklands<br />
-              London<br />
-              E14 1AB <br />
-              <br />
-              <p><i class="fa-solid fa-phone"></i> 0123 450 6789</p>
-              <p><i class="fa-solid fa-envelope"></i> info@luxeatlas.me</p>
-            </address>
+              London<br /> 
+              E14 1AB 
+             </address>
+             <p><i class="fa-solid fa-phone"></i> 0123 456 7890</p>
+             <p><i class="fa-solid fa-envelope"></i> info@luxeatlas.me</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-12 col-md-3">
             <h4>Made by Sharon Henry</h4>
             <p>
               2025 Luxe Atlas. <br />Made with
@@ -184,7 +190,7 @@ Simply access the map, select your destination, and allow us to welcome you with
         </div>
       </div>
     </footer>
-        <script
+    <script
       src="https://kit.fontawesome.com/a1caae48e2.js"
       crossorigin="anonymous"
     ></script>
@@ -199,10 +205,10 @@ Simply access the map, select your destination, and allow us to welcome you with
       crossorigin="anonymous"
     ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-   <script
+    <script
       async
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQZw5S-dbbl7YOumtwTbBVvxwxjxucCuU&callback=initMap&libraries=places">
-    </script>
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQZw5S-dbbl7YOumtwTbBVvxwxjxucCuU&callback=initMap&libraries=places"
+    ></script>
     <script async src="assets/js/map.js"></script>
   </body>
 </html>
