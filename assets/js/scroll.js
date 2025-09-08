@@ -1,3 +1,5 @@
+// Scrolling cities
+
 $(document).ready(function () {
   let destinations = [
     "Paris",
@@ -31,6 +33,8 @@ $(document).ready(function () {
 
   showCity();
 });
+
+// Time of day greeting
 $(document).ready(function () {
   function greeting() {
     let $items = $(".greeting");
@@ -50,9 +54,8 @@ $(document).ready(function () {
     // Insert text into paragraph
     $items.text(message);
 
-    // Debugging log
     console.log("Hour:", hour, "→ Message:", message);
   }
 
-  greeting(); // run once
+  greeting();
 });
