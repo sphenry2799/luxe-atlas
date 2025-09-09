@@ -103,87 +103,28 @@
             unforgettable. Contact us today to begin planning your next
             extraordinary experience.
           </p>
+<!-- Contact form -->
+              
+  <form id="form">
+  <div class="field">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+  </div>
+   <div class="field">
+    <label for="time">Phone:</label>
+    <input type="text" name="phone" id="phone">
+  </div>
+    <div class="field">
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email">
+  </div>
+  <div class="field">
+    <label for="message">Message</label>
+    <input type="text" name="message" id="message">
+  </div>
 
-          <form id="form">
-            <div class="field">
-              <label for="title">title</label>
-              <input type="text" name="title" id="title" />
-            </div>
-            <div class="field">
-              <label for="name">name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div class="field">
-              <label for="time">time</label>
-              <input type="text" name="time" id="time" />
-            </div>
-            <div class="field">
-              <label for="email">email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div class="field">
-              <label for="message">message</label>
-              <input type="text" name="message" id="message" />
-            </div>
-
-            <input type="submit" id="button" value="Send Email" />
-          </form>
-
-          <!-- <form id="form">
-            <div class="row">
-              <div class="col-12 mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input
-                  class="form-control"
-                  id="name"
-                  name="name"
-                  type="text"
-                  required
-                />
-              </div>
-              <div class="col-12 mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  class="form-control"
-                  id="email"
-                  name="email"
-                  type="email"
-                  required
-                />
-              </div>
-              <div class="col-12 mb-3">
-                <label for="event-type" class="form-label">Event type</label>
-                <select
-                  id="event-type"
-                  class="form-select"
-                  name="event-type"
-                  required
-                >
-                  <option value="" selected>Select</option>
-                  <option value="regular-play">European Cities</option>
-                  <option value="dnd">Caribbean Resorts</option>
-                  <option value="retro-night">Chinese Tours</option>
-                  <option value="tournament">American Cities</option>
-                  <option value="kids-party">Safaris</option>
-                </select>
-              </div>
-              <div class="col-12 mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea
-                  class="form-control"
-                  rows="6"
-                  id="message"
-                  name="message"
-                  required
-                ></textarea>
-              </div>
-            </div>
-
-            <button type="submit" id="button" class="btn btn-primary">
-              Submit form
-            </button>
-          </form> -->
-        </div>
+  <input type="submit" id="button" value="Contact Us" >
+</form>
       </div>
     </section>
     <footer id="footer" class="py-4 mt-auto">
@@ -275,5 +216,10 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script async src="assets/js/contact.js"></script>
   </body>
 </html>
