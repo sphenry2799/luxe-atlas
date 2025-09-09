@@ -1,5 +1,6 @@
 (function () {
-  emailjs.init("M7YirBCJ61f49tPKe"); // replace with your actual public key
+  // Initialize EmailJS with your Public Key
+  emailjs.init("M7YirBCJ61f49tPKe");
 })();
 
 const btn = document.getElementById("button");
