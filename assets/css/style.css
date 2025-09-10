@@ -109,7 +109,7 @@ a:hover {
 .field label {
   display: block;
   font-size: 1rem;
-  color: var(--background-color);
+  color: var(--dark-color);
 }
 
 .field input {
@@ -136,7 +136,7 @@ input[type="submit"] {
 .field label {
   display: block;
   font-size: 1rem;
-  color: var(--background-color);
+  color: var(--dark-color);
 }
 
 .field input {
@@ -184,7 +184,7 @@ input[type="submit"] {
 .navbar-dark,
 .dropdown-item {
   background-color: var(--secondary-color);
-  color: var(--secondary-color);
+  color: var(--light-color);
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 1.2rem;
@@ -224,7 +224,7 @@ input[type="submit"] {
   height: 2.5rem;
   position: relative;
   font-family: var(--secondary-font);
-  text-shadow: 2px 2px var(--dark-color);
+  text-shadow: 1px 1px var(--dark-color);
 }
 
 .cities li {
@@ -252,7 +252,6 @@ input[type="submit"] {
 .header-container {
   position: relative;
   width: auto;
-  color: var(--light-highlight-color);
 }
 
 .centred-header-text {
