@@ -41,12 +41,12 @@ h1 {
 
 h2 {
   font-family: var(--secondary-font);
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 h3 {
   font-family: var(--secondary-font);
-  color: var(--third-color);
+  color: var(--dark-color);
 }
 
 h4 {
@@ -183,10 +183,10 @@ input[type="submit"] {
 /* Nav bar and dropdown menu */
 .navbar-dark,
 .dropdown-item {
-  background-color: var(--primary-color);
-  color: var(--light-color);
+  background-color: var(--secondary-color);
+  color: var(--secondary-color);
   font-family: var(--secondary-font);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.2rem;
 }
 .container-fluid {
