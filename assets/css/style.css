@@ -14,11 +14,6 @@
 }
 
 /* Global Styles */
-/* * {
-  margin: 0;
-  padding: 0;
-  border: none;
-} */
 
 body {
   background-color: #ffffff;
@@ -189,6 +184,24 @@ input[type="submit"] {
   font-weight: 700;
   font-size: 1.2rem;
 }
+
+.nav-link:hover {
+  color: var(--third-color);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--secondary-color);
+  border: none;
+  color: var(--light-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border: var(--primary-color);
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -198,6 +211,7 @@ input[type="submit"] {
   height: auto;
 }
 
+/* iframe for map */
 .iframe {
   width: 100%;
   min-height: 18rem;
@@ -207,6 +221,7 @@ input[type="submit"] {
   background-color: var(--light-color);
 }
 
+/* Greeting */
 .greeting {
   color: var(--light-color);
   font-size: 1.5rem;
@@ -249,6 +264,7 @@ input[type="submit"] {
   filter: drop-shadow(6px 6px 8px rgb(68, 15, 70));
 }
 
+/* Container over main image */
 .header-container {
   position: relative;
   width: auto;
