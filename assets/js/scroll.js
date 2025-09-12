@@ -1,5 +1,6 @@
 // Scrolling cities
 
+// Array for cities to be shown
 $(document).ready(function () {
   let destinations = [
     "Paris",
@@ -12,12 +13,14 @@ $(document).ready(function () {
   ];
   let $list = $(".cities");
 
+  //Looping
   destinations.forEach(function (city) {
     $list.append($("<li>").text(city));
   });
 
   let index = 0;
 
+  //Fade effect for cities
   function showCity() {
     let $items = $list.find("li");
 
@@ -41,6 +44,7 @@ $(document).ready(function () {
     let hour = new Date().getHours();
     let message = "";
 
+    // Time of day to be shown
     if (hour < 6) {
       message = "Good night";
     } else if (hour < 12) {

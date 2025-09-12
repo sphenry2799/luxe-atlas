@@ -1,8 +1,10 @@
+// Function to link Email JS to javascript
 (function () {
-  // Initialize EmailJS with your Public Key
+  // Initialize EmailJS with Public Key
   emailjs.init("M7YirBCJ61f49tPKe");
 })();
 
+// Clicking the submit button to send email
 const btn = document.getElementById("button");
 const form = document.getElementById("form");
 

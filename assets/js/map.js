@@ -52,7 +52,7 @@ function geocodeByText(text) {
     }
   });
 }
-
+// Custom function for latitude and location
 function setLocation(latlng, label) {
   marker.setPosition(latlng);
   map.panTo(latlng);
