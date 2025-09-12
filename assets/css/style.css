@@ -29,18 +29,19 @@ body {
 
 h1 {
   font-family: var(--secondary-font);
-  color: var(--light-color);
-  text-shadow: 2px 2px var(--dark-color);
+  color: var(--primary-color);
 }
 
 h2 {
   font-family: var(--secondary-font);
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 h3 {
-  font-family: var(--secondary-font);
-  color: var(--dark-color);
+  font-family: var(--primary-font);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--light-color);
 }
 
 h4 {
@@ -122,24 +123,12 @@ input[type="submit"] {
   border: none;
 }
 
-/* Headings Alternative */
 .heading1 {
   font-family: var(--secondary-font);
-  color: var(--primary-color);
-  text-shadow: none;
-}
-
-.heading2 {
-  font-family: var(--secondary-font);
-  color: var(--secondary-color);
-  text-shadow: none;
-}
-
-.heading3 {
-  font-family: var(--secondary-font);
   color: var(--light-color);
-  text-shadow: none;
+  text-shadow: 2px 2px var(--dark-color);
 }
+
 /* Feedback form */
 .field {
   margin-bottom: 10px;
