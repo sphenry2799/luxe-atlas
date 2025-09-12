@@ -107,31 +107,48 @@
 
           <!-- Contact form -->
 
-          <form id="form">
-            <div class="field">
-              <label for="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div class="field">
-              <label for="phone">Phone</label>
-              <input type="text" name="phone" id="phone" />
-            </div>
-            <div class="field">
-              <label for="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div class="field">
-              <label for="message">Message</label>
-              <textarea
-                name="message"
-                id="message"
-                rows="5"
-                required
-              ></textarea>
-            </div>
-
-            <input type="submit" id="button" value="Contact Us" />
-          </form>
+              <form id="form" class="row g-3">
+                <div class="col-12 col-md-6">
+                    <div>
+                      <label for="name" class="form-label">Name</label>
+                      <input class="form-control" type="text" name="name" id="name" />
+                    </div>
+                    <div>
+                      <label for="phone" class="form-label">Phone</label>
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="phone"
+                        id="phone"
+                      />
+                    </div>
+                    <div>
+                      <label for="email" class="form-label">Email</label>
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="email"
+                        id="email"
+                      />
+                    </div>
+                    <div>
+                      <label for="message" class="form-label">Message</label>
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        id="message"
+                        rows="5"
+                        required
+                      ></textarea>
+                    </div>
+                  <input
+                    type="submit"
+                    id="button"
+                    value="Contact Us"
+                    class="btn btn-primary mt-3"
+                  />
+              </form>
+          </div>
         </div>
       </div>
     </section>
