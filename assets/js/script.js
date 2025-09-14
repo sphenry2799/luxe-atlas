@@ -14,6 +14,7 @@ $(document).ready(function () {
 
   let index = 0;
 
+  // Function to show the next city on list
   function showNextCity() {
     if (index >= destinations.length) return;
 
